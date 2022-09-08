@@ -58,7 +58,7 @@ Sources:  [https://istio.io/latest/about/service-mesh]()
 
 1. **Certificate Management** (gestion des certificats)
    1. [documentation](https://istio.io/latest/docs/tasks/security/cert-management/)
-   2. usage
+   2. usage WIP
       1. [mode simple](./Securite/CertificateManagement/Standalone/standaloneTls.md)
       2. [Cert-Manager](./Securite/CertificateManagement/WithCert-manager/tlsWithCertManager.md)
 2. **Authorization** (gestion des autorisations d'accès)
