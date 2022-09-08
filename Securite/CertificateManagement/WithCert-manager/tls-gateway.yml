@@ -15,10 +15,10 @@ spec:
         mode: SIMPLE
         credentialName: ingress-cert
       hosts:
-        - httpbin.poc.innovation-laposte.io
+        - httpbin.mon.dns
     - port:
         number: 80
         name: http
         protocol: HTTP
       hosts:
-        - httpbin.poc.innovation-laposte.io
+        - httpbin.mon.dns

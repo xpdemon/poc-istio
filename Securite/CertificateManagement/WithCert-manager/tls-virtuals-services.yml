@@ -5,7 +5,7 @@ metadata:
   name: httpbin
 spec:
   hosts:
-    - httpbin.poc.innovation-laposte.io
+    - httpbin.mon.dns
   gateways:
     - httpbin-tls-gateway
   http:

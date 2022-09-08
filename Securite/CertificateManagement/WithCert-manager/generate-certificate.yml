@@ -9,6 +9,6 @@ spec:
   issuerRef:
     name: letsencrypt-staging-cluster-issuer
     kind: ClusterIssuer
-  commonName: httpbin.poc.innovation-laposte.io
+  commonName: httpbin.mon.dns
   dnsNames:
-    - httpbin.poc.innovation-laposte.io
+    - httpbin.mon.dns
