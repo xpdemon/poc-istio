@@ -86,7 +86,7 @@ spec:
 
 ![userRequestRouting](/assets/userRequestRouting.png)
 
-Après application de la règle quand nous nous authentifions sur l'application avec l'utilisateur le traffic est routé vers le subset`v2` sinon bers le `v1`
+Après application de la règle quand nous nous authentifions sur l'application avec l'utilisateur le traffic est routé vers le subset`v2` sinon vers le `v1`
 
 sources :
 
