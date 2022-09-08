@@ -1,0 +1,14 @@
+# Generation des certifs via Let's Encrypt
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: ingress-cert
+  namespace: istio-ingress # A placer dans le meme NameSpace que l'ingress istio
+spec:
+  secretName: ingress-cert
+  issuerRef:
+    name: letsencrypt-staging-cluster-issuer
+    kind: ClusterIssuer
+  commonName: httpbin.poc.innovation-laposte.io
+  dnsNames:
+    - httpbin.poc.innovation-laposte.io

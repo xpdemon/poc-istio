@@ -1,0 +1,19 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: helloworld
+  namespace: traefik
+spec:
+  hosts:
+    - "*"
+  gateways:
+    - traefik-gateway
+  http:
+    - match:
+        - uri:
+            prefix: /helloworld
+      route:
+        - destination:
+            host: helloworld
+            port:
+              number: 80
